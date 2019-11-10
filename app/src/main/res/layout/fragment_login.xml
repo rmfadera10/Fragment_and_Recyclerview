@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragment.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <EditText
+       android:id="@+id/etusername"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter your username"
+       android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:gravity="center"/>
+
+</LinearLayout>
