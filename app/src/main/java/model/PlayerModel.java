@@ -2,15 +2,17 @@ package model;
 
 public class PlayerModel {
     private String name;
-    private String phoneNo;
+    private int age;
+    private String gender;
     private int imageId;
 
-    public PlayerModel(String name, String phoneNo, int imageId) {
+
+    public PlayerModel(String name, int age, String gender, int imageId) {
         this.name = name;
-        this.phoneNo = phoneNo;
+        this.age = age;
+        this.gender = gender;
         this.imageId = imageId;
     }
-
 
     public String getName() {
         return name;
@@ -20,12 +22,20 @@ public class PlayerModel {
         this.name = name;
     }
 
-    public String getPhoneNo() {
-        return phoneNo;
+    public int getAge() {
+        return age;
     }
 
-    public void setPhoneNo(String phoneNo) {
-        this.phoneNo = phoneNo;
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public int getImageId() {

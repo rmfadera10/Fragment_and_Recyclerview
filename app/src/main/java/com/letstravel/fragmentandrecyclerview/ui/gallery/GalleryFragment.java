@@ -40,7 +40,7 @@ public class GalleryFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         int first=Integer.parseInt(txtfirst.getText().toString());
-        int second=Integer.parseInt(txtfirst.getText().toString());
+        int second=Integer.parseInt(txtsecond.getText().toString());
         int result=first+second;
         Toast.makeText(getActivity(), "Sum of two number =" +result, Toast.LENGTH_SHORT).show();
     }
